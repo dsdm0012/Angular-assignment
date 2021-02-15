@@ -1,0 +1,113 @@
+<!--header starts-->
+<header></header>
+
+<nav class="navbar navbar-expand-sm fixed-top sticky-top navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img [src]="myimg" style="width: 80px;" alt="Open"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          <li class="nav-item mr-3">
+            <a class="nav-link active" aria-current="page" href="#">Products</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#">Solutions</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+       <button class="btn btn-outline-secondary1 mr-3">Login</button>
+       <button class="btn btn-success1">Get Started</button>
+      </div>
+    </div>
+  </nav>
+<!--header ends-->
+
+<!--Priduct section starts-->
+<div class="row">
+  <div class="continer-fluid">
+<div class="col-6">
+<section class="products">
+<img src="../../assets/blob-small.png" alt="blob-small">
+<div class="productcontent">
+<h1>We make it Super <br>
+Simple</h1>
+<hr class="size">
+</div>
+</section>
+<div class="collectimg">
+    <img src="../../assets/collect_img-video.png" width="580px" alt="collect_img-video">
+    </div>
+</div>
+<div class="col-md-6">
+  <div class="card">
+    <div class="card-body">
+      <p>Eligibility Calculator</p>
+      <div class="main">
+        <div><span style="font-size: small; font-weight: normal;"><b>Monthly Income</b></span> <br>
+          <b>₹</b><span id="income"></span>
+        <div class="slider-bar">
+          <input type="range" min="0" max="300000" value="150000" id="myrange" class="slider">
+       </div></div>
+       <div style="padding-top: 40px;"><span style="font-size: small; font-weight: normal;"><b> Monthly Expense</b></span> <br>
+        <b>₹</b><span id="rangeValue"></span>
+        <div class="progressbar">
+          <input type="range" min="0" max="50000" value="30000" id="expensive" class="newslider">
+        </div>
+       </div>
+       <div style="padding-top: 20px;"><span style="font-size: medium; font-weight: normal;"><b> Repayment Tenure</b></span>
+        </div>
+      
+        <div style="padding-top: 10px;">
+          <select class="form-select">
+            <option value="">1 Months</option>
+            <option value="">2 Months</option>
+            <option value="">3 Months</option>
+            <option value="">4 Months</option>
+            <option value="">5 Months</option>
+            <option value="" selected>6 Months</option>
+            <option value="">7 Months</option>
+            <option value="">8 Months</option>
+            <option value="">9 Months</option>
+            <option value="">10 Months</option>
+            <option value="">11 Months</option>
+            <option value="">12 Months</option>
+          </select>
+       </div>
+       <div style="padding-top: 20px; font-size: 14px;"> Do you have any existing loans?
+        <label class="toggle-btn">
+          <input type="checkbox" id="toggle-btn-1">
+          <label for="toggle-btn-1"></label>
+        </label>
+       </div>
+       <div style="padding-top: 20px;">
+      <span style="font-weight: 500; font-size: medium;">EMI of existing loan (optional)</span>
+      <input type="text" class="form-control"  placeholder="₹ 15000">
+      </div>
+      <div class="accounting-1">
+        <img src="../../assets/accounting_dots.png" alt="accounting-1">
+      </div>
+      </div>
+    </div>
+    <div class="gradient">
+      <div class="content">Loan Amount <br>
+        <b>₹ 100000</b> <br><br>
+        Your EMI will be <br>
+        <b>₹ 15000</b>
+      </div>
+      <img src="../../assets/gradient.png" width="175px" alt="gradient">
+      
+    </div>
+    <div class="button">
+    <button class="btn btn-primary1" style="height: 45.5px;">Get Money</button>
+  </div>
+  </div>
+  <div class="accounting">
+  <img src="../../assets/accounting_dots.png" alt="accounting">
+</div>
+</div>
+</div>
+<!--Product section ends-->

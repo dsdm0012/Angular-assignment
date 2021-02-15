@@ -1,0 +1,116 @@
+  /*solution part starts*/
+  .wavebg{
+    transform: translate( -5%, -55%);
+    height: 350px; 
+    display: block;
+    background-repeat: no-repeat; 
+  }
+  .card{
+      position: absolute;
+      vertical-align: top;
+      bottom: 80%;
+      left: 10%;
+      border: 0.5px solid lightgray;
+      box-shadow: 0px 2px 5px 5px lightgray;
+      border-radius: 50px;
+      padding: 20px;
+      width: 350px;
+      
+  }
+  .card-body{
+   
+    text-align: left;
+  }
+  .card-title{
+    margin-top: 20px;
+  }
+.card:hover{
+  background: #D8BFD8;
+  opacity: 0.8;
+}
+.card-1{
+  position: absolute;
+  vertical-align: top;
+  bottom: 225%;
+  left: 10%;
+  border: 0.5px solid lightgray;
+  box-shadow: 0px 2px 5px 5px lightgray;
+  border-radius: 50px;
+  padding: 20px;
+  width: 350px; 
+}
+.card-1:hover{
+  background: #D8BFD8;
+  opacity: 0.8;
+}
+.card-2{
+  position: absolute;
+  vertical-align: top;
+  top: 40%;
+  left: 10%;
+  border: 0.5px solid lightgray;
+  box-shadow: 0px 2px 5px 5px lightgray;
+  border-radius: 50px;
+  padding: 20px;
+  width: 350px; 
+}
+.card-2:hover{
+  background: #D8BFD8;
+  opacity: 0.8;
+}
+.card-3{
+  position: absolute;
+  vertical-align: top;
+  bottom: 150%;
+  left: 70%;
+  border: 0.5px solid lightgray;
+  box-shadow: 0px 2px 5px 5px lightgray;
+  border-radius: 50px;
+  padding: 20px;
+  width: 350px; 
+}
+.card-3:hover{
+  background: #D8BFD8;
+  opacity: 0.8;
+}
+.card-4{
+  position: absolute;
+  vertical-align: top;
+  bottom: 5%;
+  left: 70%;
+  border: 0.5px solid lightgray;
+  box-shadow: 0px 2px 5px 5px lightgray;
+  border-radius: 50px;
+  padding: 20px;
+  width: 350px; 
+}
+.card-4:hover{
+  background: #D8BFD8;
+  opacity: 0.8;
+}
+hr.size{
+  border: 3px solid #000000;
+  border-radius: 13px;
+  opacity: 0.5;
+  width: 200px;
+  transform: translate( 125%, -5855%);
+}
+.content{
+
+  transform: translate( 40%, -555%);
+}
+.small-content{
+  transform: translate( 40%, -370%);
+}
+.btn-outline-secondary1{
+  color: #663399;
+  border-color: #663399;
+  border-radius: 20px;
+  width: 220px;
+ 
+}
+.btn-outline-secondary1:hover{
+  background-color: #663399;
+  color: #ffffff;
+  
+}
